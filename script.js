@@ -24,7 +24,7 @@ setInterval(function () {
 
 
 products = document.getElementById("products");
-
+var data;
 // Simple fetch to load JSON data and display it
 fetch("products.json")
   .then((response) => response.json()) // Parse the JSON data
