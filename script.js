@@ -42,7 +42,7 @@ fetch("products.json")
     document.getElementById("jsonOutput").textContent =
       "Error loading JSON data.";
   });
-data={
+data2={
     "Connectors":{
         "Connectors 1":["jpeg","cjhbaksjld bamn sjba manx    das  ads  adaadddd   jansnmz, 1kg 2mm"],
         "Connectors 2":["jpeg","cjhbaksjld bamn sjba manx    das  ads  adaadddd   jansnmz, 1kg 2mm"]
