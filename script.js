@@ -71,7 +71,7 @@ data2={
     }
     
 }
-  console.log(data)
+  console.log(data,"newbbbbbbbbbbbbbbbbbbbbbbbbbbbb")
   for (const key in data) {
       product=`<h2 class="productName">${key}</h2><div style="display:none;" class="items">`
       for(const key2 in data[key]){console.log(key2)
