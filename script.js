@@ -28,12 +28,12 @@ var data;
 // Simple fetch to load JSON data and display it
 fetch("https://airanhindustan.github.io/SMT---client-Akash-Garg-/products.json")
   .then((response) => response.json()) // Parse the JSON data
-  .then((data) => {
+  .then((data1) => {
     // Display JSON in the HTML
     // products.textContent
     
 
-    data = JSON.stringify(data);
+    data = JSON.stringify(data1);
     console.log(data)
 
   })
