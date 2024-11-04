@@ -26,7 +26,7 @@ setInterval(function () {
 products = document.getElementById("products");
 var data;
 // Simple fetch to load JSON data and display it
-fetch("products.json")
+fetch("https://airanhindustan.github.io/SMT---client-Akash-Garg-/products.json")
   .then((response) => response.json()) // Parse the JSON data
   .then((data) => {
     // Display JSON in the HTML
